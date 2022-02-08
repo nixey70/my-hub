@@ -37,7 +37,7 @@ request(abcdef)
 
 local job = game.JobId
 while true do
-    wait(1)
+    wait(5)
     local job = game.JobId
     local input = game:HttpGet("https://raw.githubusercontent.com/nixey70/my-hub/main/target")")
     if input == job then
